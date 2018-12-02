@@ -1,5 +1,5 @@
 #include "stdafx.h"
-// constructing arrays
+//constructing arrays
 //fixed size sequence container.
 //it is as efficent as array []
 //fixed size, dynamicalley do not change size.
@@ -43,10 +43,10 @@ int main ()
 
 	//print data function.
 	std::cout << "Fourth print data function:";
-	std::cout << fourth.data(); //for char array it print string, here INT so some junk. 
+	std::cout << fourth.data(); //for char array it print string, here INT so some junk.
 	std::cout << '\n';
 
-	//print using iterator. 
+	//print using iterator more.
 	std::cout << "Fourth print using iterator:";
 	std::array<int,3>::iterator it1;
 	for ( it1 = fourth.begin(); it1 != fourth.end(); ++it1 )
